@@ -1,0 +1,73 @@
+import time
+import random
+import datetime
+
+class DailyRiddleApp:
+    def __init__(self):
+        self.riddles = [
+            {"question": "What has keys but can't open locks?", "answer": "A piano"},
+            {"question": "What has to be broken before you can use it?", "answer": "An egg"},
+            {"question": "I’m tall when I’m young, and I’m short when I’m old. What am I?", "answer": "A candle"},
+            {"question": "What month of the year has 28 days?", "answer": "All of them"},
+            {"question": "What is full of holes but still holds water?", "answer": "A sponge"}
+        ]
+        self.last_riddle_time = None
+        self.current_riddle = None
+    
+    def get_riddle(self):
+        if self.is_new_riddle_needed():
+            self.current_riddle = random.choice(self.riddles)
+            self.last_riddle_time = datetime.datetime.now()
+        return self.current_riddle
+
+    def is_new_riddle_needed(self):
+        if self.last_riddle_time is None:
+            return True
+        return datetime.datetime.now() - self.last_riddle_time >= datetime.timedelta(hours=24)
+    
+    def show_riddle(self):
+        riddle = self.get_riddle()
+        print(f"Riddle of the Day: {riddle['question']}")
+
+if __name__ == "__main__":
+    app = DailyRiddleApp()
+    
+    # Simulate checking the riddle periodically
+    while True:
+        app.show_riddle()
+        print("Check back tomorrow for a new riddle!\n")# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
