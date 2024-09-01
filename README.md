@@ -5,24 +5,24 @@
     <title>Adri's Beauty Galore</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="font-sans bg-yellow-50 text-gray-800">
+<body class="font-sans bg-white-50 text-gray-800">
     <!-- Header -->
-    <header class="bg-blue shadow">
+    <header class="bg-black shadow">
         <div class="container mx-auto flex justify-between items-center p-6">
             <h1 class="text-2xl font-bold text-black-600">Adri's Beauty Galore</h1>
             <nav>
                 <a href="#about" class="text-black-600 hover:text-black-800 mx-4">About</a>
-                <a href="#products" class="text-sienna-600 hover:text-black-800 mx-4">Products</a>
+                <a href="#products" class="text-black-600 hover:text-black-800 mx-4">Products</a>
                 <a href="#contact" class="text-black-600 hover:text-black-800 mx-4">Contact</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-brown-200 py-20">
+    <section class="bg-black-200 py-20">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold mb-4 text-sienna-800">Welcome to Adri's Beauty Galore</h2>
-            <p class="text-lg mb-8 text-sienna-700">Your one-stop shop for all things beauty.</p>
+            <h2 class="text-4xl font-bold mb-4 text-black-800">Welcome to Adri's Beauty Galore</h2>
+            <p class="text-lg mb-8 text-black-700">Your one-stop shop for all things beauty.</p>
             <img src="https://source.unsplash.com/random/800x600?cosmetics" alt="Cosmetic products" class="mx-auto rounded-lg shadow-lg">
         </div>
     </section>
