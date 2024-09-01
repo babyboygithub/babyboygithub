@@ -11,9 +11,9 @@
         <div class="container mx-auto flex justify-between items-center p-6">
             <h1 class="text-2xl font-bold text-black-600">Adri's Beauty Galore</h1>
             <nav>
-                <a href="#about" class="text-pink-600 hover:text-pink-800 mx-4">About</a>
-                <a href="#products" class="text-pink-600 hover:text-pink-800 mx-4">Products</a>
-                <a href="#contact" class="text-pink-600 hover:text-pink-800 mx-4">Contact</a>
+                <a href="#about" class="text-black-600 hover:text-pink-800 mx-4">About</a>
+                <a href="#products" class="text-sienna-600 hover:text-pink-800 mx-4">Products</a>
+                <a href="#contact" class="text-black-600 hover:text-pink-800 mx-4">Contact</a>
             </nav>
         </div>
     </header>
