@@ -73,7 +73,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black-600 text-black py-6">
+    <footer class="bg-white-600 text-black py-6">
         <div class="container mx-auto text-center">
             <p>© 2024 Adri's Beauty Galore. All rights reserved.</p>
             <div class="flex justify-center space-x-4 mt-4">
