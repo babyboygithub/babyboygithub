@@ -5,7 +5,7 @@
     <title>Adri's Beauty Galore</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="font-sans bg-sienna-50 text-gray-800">
+<body class="font-sans bg-yellow-50 text-gray-800">
     <!-- Header -->
     <header class="bg-white shadow">
         <div class="container mx-auto flex justify-between items-center p-6">
