@@ -40,46 +40,46 @@
         <div class="container mx-auto text-center">
             <h3 class="text-3xl font-semibold mb-6">Featured Products</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-6 bg-pink-50 rounded-lg shadow">
+                <div class="p-6 bg-black-50 rounded-lg shadow">
                     <img src="https://source.unsplash.com/random/300x300?lipstick" alt="Lipstick" class="w-full h-48 object-cover rounded">
                     <h4 class="text-xl font-bold mt-4">Matte Lipstick</h4>
-                    <p class="text-pink-600 mt-2">$19.99</p>
+                    <p class="text-black-600 mt-2">$19.99</p>
                 </div>
-                <div class="p-6 bg-pink-50 rounded-lg shadow">
+                <div class="p-6 bg-black-50 rounded-lg shadow">
                     <img src="https://source.unsplash.com/random/300x300?skincare" alt="Skincare" class="w-full h-48 object-cover rounded">
                     <h4 class="text-xl font-bold mt-4">Hydrating Serum</h4>
-                    <p class="text-pink-600 mt-2">$24.99</p>
+                    <p class="text-black-600 mt-2">$24.99</p>
                 </div>
-                <div class="p-6 bg-pink-50 rounded-lg shadow">
+                <div class="p-6 bg-black-50 rounded-lg shadow">
                     <img src="https://source.unsplash.com/random/300x300?eyeshadow" alt="Eyeshadow" class="w-full h-48 object-cover rounded">
                     <h4 class="text-xl font-bold mt-4">Eyeshadow Palette</h4>
-                    <p class="text-pink-600 mt-2">$29.99</p>
+                    <p class="text-black-600 mt-2">$29.99</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-16 bg-pink-200">
+    <section id="contact" class="py-16 bg-black-200">
         <div class="container mx-auto text-center">
             <h3 class="text-3xl font-semibold mb-6">Contact Us</h3>
             <form class="max-w-md mx-auto">
                 <input type="text" placeholder="Name" class="w-full p-4 mb-4 border rounded-lg">
                 <input type="email" placeholder="Email" class="w-full p-4 mb-4 border rounded-lg">
                 <textarea placeholder="Your message" class="w-full p-4 mb-4 border rounded-lg"></textarea>
-                <button type="submit" class="w-full bg-pink-600 text-white py-3 rounded-lg hover:bg-pink-700">Send Message</button>
+                <button type="submit" class="w-full bg-black-600 text-white py-3 rounded-lg hover:bg-black-700">Send Message</button>
             </form>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-pink-600 text-white py-6">
+    <footer class="bg-black-600 text-white py-6">
         <div class="container mx-auto text-center">
             <p>© 2024 Adri's Beauty Galore. All rights reserved.</p>
             <div class="flex justify-center space-x-4 mt-4">
-                <a href="#" class="hover:text-gray-200">Facebook</a>
-                <a href="#" class="hover:text-gray-200">Instagram</a>
-                <a href="#" class="hover:text-gray-200">Twitter</a>
+                <a href="#" class="hover:text-white-200">Facebook</a>
+                <a href="#" class="hover:text-white-200">Instagram</a>
+                <a href="#" class="hover:text-white-200">Twitter</a>
             </div>
         </div>
     </footer>
