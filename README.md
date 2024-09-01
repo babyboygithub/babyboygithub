@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +5,11 @@
     <title>Adri's Beauty Galore</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="font-sans bg-pink-50 text-gray-800">
+<body class="font-sans bg-sienna-50 text-gray-800">
     <!-- Header -->
     <header class="bg-white shadow">
         <div class="container mx-auto flex justify-between items-center p-6">
-            <h1 class="text-2xl font-bold text-pink-600">Adri's Beauty Galore</h1>
+            <h1 class="text-2xl font-bold text-black-600">Adri's Beauty Galore</h1>
             <nav>
                 <a href="#about" class="text-pink-600 hover:text-pink-800 mx-4">About</a>
                 <a href="#products" class="text-pink-600 hover:text-pink-800 mx-4">Products</a>
