@@ -7,7 +7,7 @@
 </head>
 <body class="font-sans bg-yellow-50 text-gray-800">
     <!-- Header -->
-    <header class="bg-white shadow">
+    <header class="bg-blue shadow">
         <div class="container mx-auto flex justify-between items-center p-6">
             <h1 class="text-2xl font-bold text-black-600">Adri's Beauty Galore</h1>
             <nav>
