@@ -73,13 +73,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black-600 text-white py-6">
+    <footer class="bg-black-600 text-black py-6">
         <div class="container mx-auto text-center">
             <p>© 2024 Adri's Beauty Galore. All rights reserved.</p>
             <div class="flex justify-center space-x-4 mt-4">
-                <a href="#" class="hover:text-white-200">Facebook</a>
-                <a href="#" class="hover:text-white-200">Instagram</a>
-                <a href="#" class="hover:text-white-200">Twitter</a>
+                <a href="#" class="hover:text-black-200">Facebook</a>
+                <a href="#" class="hover:text-black-200">Instagram</a>
+                <a href="#" class="hover:text-black-200">Twitter</a>
             </div>
         </div>
     </footer>
