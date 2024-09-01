@@ -19,10 +19,10 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-pink-200 py-20">
+    <section class="bg-brown-200 py-20">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold mb-4 text-pink-800">Welcome to Adri's Beauty Galore</h2>
-            <p class="text-lg mb-8 text-pink-700">Your one-stop shop for all things beauty.</p>
+            <h2 class="text-4xl font-bold mb-4 text-sienna-800">Welcome to Adri's Beauty Galore</h2>
+            <p class="text-lg mb-8 text-sienna-700">Your one-stop shop for all things beauty.</p>
             <img src="https://source.unsplash.com/random/800x600?cosmetics" alt="Cosmetic products" class="mx-auto rounded-lg shadow-lg">
         </div>
     </section>
